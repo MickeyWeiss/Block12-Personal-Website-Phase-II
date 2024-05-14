@@ -12,6 +12,7 @@ header{
 }
 h1{
     font-family: fantasy;
+    text-align: center;
 }
 .img1{
     margin-top: 1em;
@@ -45,6 +46,27 @@ h1{
     display: flex;
     flex-direction: row;
 }
+.quote2{
+    font-family: cursive;
+    font-size: 18pt;
+    position: absolute;
+    left: 20em;
+    top: 15em;
+}
+.quote3{
+    font-family: cursive;
+    font-size: 18pt;
+    position: absolute;
+    left:10em;
+    top: 33em;
+}
+.quote4{
+    font-family: cursive;
+    font-size: 18pt;
+    position: absolute;
+    top: 50em;
+    left: 20em;
+}
 .about-section-2{
     display: flex;
     flex-direction: row;
@@ -69,6 +91,33 @@ h1{
     margin-left: 1em;
     height: 25%;
     width: 25%;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 3%;
+}
+.portfolio-section-1{
+    display: flex;
+    flex-direction: row;
+}
+.img5{
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    height: 25%;
+    width: 25%;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 3%;
+}
+.portfolio-section-2{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.img6{
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    height: 50%;
+    width: 50%;
     box-shadow: 5px 5px 5px gray;
     border-radius: 3%;
 }

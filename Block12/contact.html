@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mickey Weiss' Personal Website</h1>
+        <h2>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </h2>
+    </header>
+    <form action="success.html">
+        <label for="name">Name (First and Last):</label><br>
+        <input type="text" name="name"><br>
+        <label for="email">E-Mail:</label><br>
+        <input type="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <input type="text" name="message" rows="4" cols="50"><br>
+        <br>
+        <input type="submit" value="submit">
+    </form> 
+    <script>const form = document.querySelector('#form')
+        const submitButton = document.querySelector('#submit')
+        
+        form.addEventListener('submit', (e) => {
+          submitButton.disabled = true
+          e.preventDefault()
+          window.location.href = window.location.origin + '/success.html'
+        })</script>
+</body>
+</html>
