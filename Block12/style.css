@@ -111,6 +111,7 @@ h1{
     display: flex;
     flex-direction: row;
     float: right;
+    margin-bottom: 1em;
 }
 .img6{
     margin-top: 1em;
@@ -120,4 +121,12 @@ h1{
     width: 50%;
     box-shadow: 5px 5px 5px gray;
     border-radius: 3%;
+}
+@media (max-width: 800px){
+    body{
+        flex-direction: column;
+    }
+}
+a:hover{
+    color: silver;
 }
