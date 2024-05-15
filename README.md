@@ -1,1 +1,3 @@
 # Block12-Personal-Website-Phase-II
+Link to GitHub project board: https://github.com/users/MickeyWeiss/projects/2/views/1
+This project is designed to further utilize growing skills in HTML and CSS. There is an additional contact page that redirects to a success page as well once the input fields have been completed. This version of the personal website is much better organized and asthetically pleasing due to the use of flexbox to better order the content on the page. This version of the personal website also utilizes a media query to adjust the flex-direction if the screen shrinks too small and a hover feature for the links in the header. 
